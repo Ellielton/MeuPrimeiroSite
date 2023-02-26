@@ -1,0 +1,112 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-image: url(https://blog.joaomarceloarcoverde.com.br/wp-content/uploads/2021/05/clinicas-odontologicas-luxo.jpg);
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {    
+    font-style: italic;
+    text-align: center;
+    font-size: 42px;
+    text-shadow: 12px 18px 12px  navy;
+  padding: 35px;
+    
+}
+
+h1:hover {
+    font-size: 60px;
+    text-shadow: 12px 18px 12px navy;
+
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 150px;
+}
+
+footer, h2 {
+   text-align: center;
+}
+
+/*css pagina de horário de atendimento da clinica.*/
+
+table th{
+    background-color: black;
+    color: white;
+}
+
+table {
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    width: 800px;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: aqua;
+}
+
+table tbody tr:houve(even) td {
+    background-color: aqua;
+}
+
+table tr td {
+    border: 1px solid black;
+}
+
+/*CSS Pagina contato*/
+
+fieldset label, input {
+    font-size: 30px;
+    margin: 20px;
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    
+}
+textarea{
+    margin: 10px 50px;
+    width: 800px;
+    height: 200px;
+}
+
+button {
+    background-color: blue;
+   font-size: 30px;
+   border-radius: 5px;
+   color: white;
+}
